@@ -1,0 +1,33 @@
+<svg width="30" height="30" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/">
+  <g transform="matrix(0.120044,0,0,0.120044,0,0)">
+    <rect x="0" y="0" width="500" height="500" />
+    <g transform="matrix(1.65861,0,0,1.65861,-183.863,-107.437)">
+      <g transform="matrix(0.619678,0,0,0.619678,99.111,40.5303)">
+        <path d="M260.598,106.568L260.598,471.171" />
+      </g>
+      <path d="M168.488,177.255L260.598,106.568" />
+      <path d="M353.13,181.079L260.598,106.568" />
+    </g>
+  </g>
+
+  <style>
+    svg {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 1.5;
+    }
+
+    rect {
+      fill: none;
+    }
+
+    path {
+      fill: none;
+      stroke: white;
+      stroke-width: 20px;
+    }
+  </style>
+</svg>

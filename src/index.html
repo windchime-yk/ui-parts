@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>UIパーツ置き場</title>
   <link rel="stylesheet" href="./assets/scss/main.scss">
 </head>
 
@@ -12,10 +12,10 @@
   <header role="banner" class="l-header">
     <div class="l-header__wrapper">
       <h1 class="l-header__head">
-        <span class="l-header__head-text">document_name</span>
-        <a href="https://github.com/[user-name]/[repository-name]" target="_blank" rel="noopener noreferrer" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
+        <span class="l-header__head-text">UIパーツ置き場</span>
+        <a href="https://github.com/windchime-yk/ui-parts" target="_blank" rel="noopener noreferrer" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
       </h1>
-      <p class="l-header__text">Description</p>
+      <p class="l-header__text">おーい磯野、UIパーツ作ろうぜ！</p>
     </div>
   </header>
   <div class="l-container">
@@ -24,14 +24,25 @@
       <ul class="l-nav__list"></ul>
     </nav>
     <main role="main" class="l-main">
-      <section id="section01" class="p-contents">
-        <h2 class="p-contents__head">content_title</h2>
-        <p class="p-contents__text">content</p>
-        <pre>
-          <code class="language-javascript">
-            const javascript = () => 'get!!'
-          </code>
-        </pre>
+      <section id="about" class="p-contents">
+        <h2 class="p-contents__head">このページの趣意</h2>
+        <p class="p-contents__text">かならずVueやReactを使うわけじゃないので、ノーフレームワークでUIパーツを作っておけば、あとから使い回せるのではないかという試み。<br>基礎ができてればVueとReactで応用が利くので。</p>
+      </section>
+
+      <section id="parts-pagetop" class="p-contents">
+        <h2 class="p-contents__head">ページトップボタン</h2>
+        <p class="p-contents__text">ページの一番上に移動させるボタン。スムーススクロール対応。また、スムーススクロールは独立化させ、単体でも使えるようにする。開発中。</p>
+        <button id="pagetop" class="p-pagetop"><img class="p-pagetop__image" src="./assets/images/arrow.svg" alt="トップへ戻る"></button>
+      </section>
+
+      <section id="parts-calendar" class="p-contents">
+        <h2 class="p-contents__head">カレンダー</h2>
+        <p class="p-contents__text">Vueで作られたカレンダーコンポーネントに苦しめられたことがあるので、できれば自作できるようになっておきたい。また、規定のスタイルをあまり入れないようにして、どのプロダクトでも使い回せるような汎用性を持たせたい。本命。開発中。</p>
+      </section>
+
+      <section id="parts-tabs" class="p-contents">
+        <h2 class="p-contents__head">タブ</h2>
+        <p class="p-contents__text">JavaScriptでのUIパーツと言えば、という感じで候補。開発中。</p>
       </section>
     </main>
     <footer role="contentinfo" class="l-footer">
@@ -39,7 +50,7 @@
         <li class="l-footer__item"><a href="https://github.com/windchime-yk" target="_blank" rel="noopener noreferrer" class="l-footer__item-link"><span class="fab fa-github l-footer__item-icon"></span></a></li>
         <li class="l-footer__item"><a href="https://twitter.com/windchime_yk" target="_blank" rel="noopener noreferrer" class="l-footer__item-link"><span class="fab fa-twitter l-footer__item-icon"></span></a></li>
       </ul>
-      <small class="l-footer__copy">&copy; 2018 WhyK</small>
+      <small class="l-footer__copy">&copy; 2020 WhyK</small>
     </footer>
   </div>
 

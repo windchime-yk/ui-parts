@@ -14,3 +14,12 @@ span,
 code {
   font-size: $fontSize;
 }
+
+button{
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+}
