@@ -1,16 +1,5 @@
 # My Docs Template
-Learn系などで使うGitHub Pagesテンプレート。  
-GitHub Actionsでgh-pagesブランチに自動デプロイする。
+![Deploy GitHub Pages](https://github.com/windchime-yk/ui-parts/workflows/Deploy%20GitHub%20Pages/badge.svg)
 
-## 技術構成
-- Parcel Bundler
-- Sass(dart-sass)
-- TypeScript
-- Prettier
-- ESLint
-- stylelint
-
-## 使い方
-1. 『Use this template』ボタンで複製する
-2. MarkdownファイルとHTMLファイルと個々のプロジェクトに合わせて修正する
-3. 利用を開始する
+フレームワークを使わないでUIパーツ作る。
+仕事で必要なときに使う用。JavaScriptを使っている現場を想定して、TypeScriptの機能は型定義のみにしたい。
