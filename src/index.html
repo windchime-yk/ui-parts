@@ -22,28 +22,28 @@
   <div class="l-container">
     <nav role="navigation" class="l-nav">
       <h2 class="l-nav__title">Index</h2>
-      <ul class="l-nav__list"></ul>
+      <ul id="NavList" class="l-nav__list"></ul>
     </nav>
 
     <main role="main" class="l-main">
-      <section id="about" class="p-contents">
+      <section id="About" class="p-contents">
         <h2 class="p-contents__head">このページの趣意</h2>
         <p class="p-contents__text">かならずVueやReactを使うわけじゃないので、ノーフレームワークでUIパーツを作っておけば、あとから使い回せるのではないかという試み。<br>基礎ができてればVueとReactで応用が利くので。</p>
         <p>業務で提案するときに使うかもしれないので、なるべくIE11に対応して、TypeScriptも最低限にする。</p>
       </section>
 
-      <section id="parts-pagetop" class="p-contents">
+      <section id="PartsPagetop" class="p-contents">
         <h2 class="p-contents__head">ページトップボタン</h2>
         <p class="p-contents__text">ページの一番上に移動させるボタン。スムーススクロール対応。また、スムーススクロールは独立化させ、単体でも使えるようにする。開発中。</p>
-        <button id="pagetop" class="p-pagetop"><img class="p-pagetop__image" src="./assets/images/arrow.svg" alt="トップへ戻る"></button>
+        <button id="Pagetop" class="p-pagetop"><img class="p-pagetop__image" src="./assets/images/arrow.svg" alt="トップへ戻る"></button>
       </section>
 
-      <section id="parts-calendar" class="p-contents">
+      <section id="PartsCalendar" class="p-contents">
         <h2 class="p-contents__head">カレンダー</h2>
         <p class="p-contents__text">Vueで作られたカレンダーコンポーネントに苦しめられたことがあるので、できれば自作できるようになっておきたい。また、規定のスタイルをあまり入れないようにして、どのプロダクトでも使い回せるような汎用性を持たせたい。本命。開発中。</p>
       </section>
 
-      <section id="parts-tabs" class="p-contents">
+      <section id="PartsTabs" class="p-contents">
         <h2 class="p-contents__head">タブ</h2>
         <p class="p-contents__text">JavaScriptでのUIパーツと言えば、という感じで候補。開発中。</p>
       </section>

@@ -2,7 +2,7 @@
  * Indexの自動生成
  */
 export const indexAutoGen = (): void => {
-  const $navList = document.querySelector('.l-nav__list')
+  const $navList = document.querySelector('#NavList')
   const $contents = document.querySelectorAll('.p-contents')
 
   $contents.forEach((content) => {
