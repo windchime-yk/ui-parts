@@ -1,5 +1,4 @@
-import { indexAutoGen } from './modules/index-autogen'
-import { prism } from './modules/prism'
+import { indexAutoGen, prism } from './modules/ui/'
 
 prism()
 indexAutoGen()
