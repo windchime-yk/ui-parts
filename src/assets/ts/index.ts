@@ -1,6 +1,6 @@
 import { prism, indexAutoGen, smoothScroll } from './modules/ui/'
 import type { HTMLElementEvent } from './interface/'
-import { pageTop } from './modules/pageTop'
+import { pageTop } from './modules/page-top'
 
 prism()
 indexAutoGen()
