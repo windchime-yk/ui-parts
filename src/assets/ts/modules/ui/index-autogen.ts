@@ -2,7 +2,7 @@
  * Indexの自動生成
  */
 export const indexAutoGen = (): void => {
-  const $navList = document.querySelector('#NavList')
+  const $navList = document.querySelector('.l-nav__list')
   const $contents = document.querySelectorAll('.p-contents')
 
   $contents.forEach((content) => {
@@ -12,7 +12,7 @@ export const indexAutoGen = (): void => {
       'beforeend',
       `
         <li class="l-nav__item">
-          <a href="#${contentId}" class="l-nav__item-link">${contentTitle}</a>
+          <a href="#${contentId}" class="l-nav__item-link js-smooth-scroll">${contentTitle}</a>
         </li>
       `
     )

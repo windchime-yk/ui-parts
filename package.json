@@ -4,9 +4,11 @@
     "dev": "parcel src/index.html --open --no-cache",
     "prebuild": "rimraf dist/",
     "build": "parcel build src/index.html --public-url .",
+    "lint:html": "prettier src/index.html",
     "lint:style": "stylelint **/*.scss --ignore-path .gitignore",
     "lint:js": "eslint --ext .ts --ignore-path .gitignore .",
     "lint": "run-p lint:*",
+    "lintfix:html": "prettier --write src/index.html",
     "lintfix:style": "yarn lint:style --fix",
     "lintfix:js": "yarn lint:js --fix",
     "lintfix": "run-p lintfix:*"
@@ -21,10 +23,12 @@
     }
   },
   "dependencies": {
-    "@types/prismjs": "^1.16.1",
-    "prismjs": "^1.20.0"
+    "prismjs": "^1.21.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
+    "@types/prismjs": "^1.16.1",
+    "@types/smoothscroll-polyfill": "^0.3.1",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
     "autoprefixer": "^9.8.5",
