@@ -1,5 +1,10 @@
 .p-pagetop {
   padding: 10px;
+  color: $subColor;
   background-color: $mainColor;
   border-radius: 50%;
+}
+.p-pagetop__icon {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
