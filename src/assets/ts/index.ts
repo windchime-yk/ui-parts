@@ -1,6 +1,7 @@
 import { prism, indexAutoGen, smoothScroll } from './modules/ui/'
 import type { HTMLElementEvent } from './interface/'
 import { pageTop } from './modules/page-top'
+import { tabs } from './modules/tabs'
 
 prism()
 indexAutoGen()
@@ -13,3 +14,4 @@ document.addEventListener('click', (e: HTMLElementEvent<HTMLAnchorElement>) => {
 })
 
 pageTop()
+tabs()
